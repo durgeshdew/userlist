@@ -42,7 +42,7 @@ const UserDetails = () => {
       <h1>User Details</h1>
       <div className="childDetails">
         <h2>{user.name}</h2>
-        <img src={user.avatar_url} alt={user.login} style={{"width": "200px"}}/>
+        <img src={user.avatar_url} alt={user.login} style={{"width": "200px"}} loading="lazy" />
       </div>
       <div className="childDetails">
         <p>Location: {user.location}</p>
