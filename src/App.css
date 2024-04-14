@@ -1,0 +1,52 @@
+.avatar {
+  width:50px;
+  height:50px;
+}
+.userPage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width:100%;
+}
+
+.user{
+  flex-direction: column;
+  padding: 10px;
+  width:16%;
+  border: 1ps solid grey;
+  gap: 10px;
+}
+li {
+  list-style-type: none;
+}
+.image {
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.pagination{
+  padding:10px;
+  border:1px solid;
+  gap: 10;
+  cursor:pointer;
+}
+.selected{
+  background-color: grey;
+}
+.pageDiv{
+  margin: 10px auto;
+}
+.details {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.childDetails {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
